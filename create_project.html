@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Project</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/create_project.css">
+  </head>
+  <body>
+   
+   
+    <div class="container">
+     
+      <form class="well form-horizontal" action="form.php" method="POST"  id="contact_form">
+        <fieldset>
+          <!-- Form Name -->
+          <legend>
+            <center>
+              <h2><b>Create Project</b></h2>
+            </center>
+          </legend>
+          <br>
+          <section>
+          <div class="row">
+          <div class="col-md-12">
+          
+          <!-- Project ID-->
+          <div class="form-group">
+            <label class="col-md-2 control-label">Project ID</label>  
+            <div class="col-md-10 inputGroupContainer">
+              <div class="input-group col-md-11">
+               <input  name="Project ID" placeholder="Project ID" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+          <!--Project Title-->
+          <div class="form-group">
+            <label class="col-md-2 control-label" >Project Title</label> 
+            <div class="col-md-10 inputGroupContainer">
+              <div class="input-group col-md-11">
+                
+                <input name="Project Title" placeholder="Project Title" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Description-->
+          <div class="form-group">
+                 <label class="col-md-2 control-label">Description</label>
+                   <div class="col-md-10 inputGroupContainer">
+                     <div class="input-group col-md-11">
+                     <textarea name="description" class="form-control" placeholder="description" rows="2" ></textarea>
+                  </div>
+              </div>
+              </div>
+          
+          <!-- Problem statement -->
+          <div class="form-group">
+            <label class="col-md-2 control-label">Problem Statement</label>  
+            <div class="col-md-10 inputGroupContainer">
+              <div class="input-group col-md-11">
+                <textarea name="problem statement" class="form-control" placeholder="Problem Statement" rows="1"></textarea>
+              </div>
+            </div>
+          </div>
+         
+          <!-- Project Goal-->
+          <div class="form-group">
+            <label class="col-md-2 control-label">Project Goal</label>  
+            <div class="col-md-10 inputGroupContainer">
+              <div class="input-group col-md-11">
+               <textarea name="project Goal" class="form-control" placeholder="Project Goal" rows="1"></textarea>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Objectives-->
+          <div class="form-group">
+            <label class="col-md-2 control-label" >Objectives</label> 
+            <div class="col-md-10 inputGroupContainer">
+              <div class="input-group">
+                
+                <input name="user_password" placeholder="Objectives" class="form-control"  type="password">
+              </div>
+            </div>
+          </div>
+          
+          <!--Advantages-->
+          <div class="form-group">
+            <label class="col-md-2 control-label" >Advantages</label> 
+            <div class="col-md-10 inputGroupContainer">
+              <div class="input-group col-md-11">
+                
+                <input name="confirm_password" placeholder="Confirm Password" class="form-control"  type="password">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modules-->
+          <div class="form-group">
+            <label class="col-md-2 control-label" >Modules</label> 
+            <div class="col-md-10 inputGroupContainer">
+              <div class="input-group col-md-11">
+               
+                <input name="DOB" placeholder="Date of Birth" class="form-control"  type="date">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Requirements -->
+          <div class="form-group">
+            <label class="col-md-2 control-label">Requirements</label>
+            <div class="col-md-10 selectContainer">
+              <div class="input-group col-md-11">
+                
+                <select name="designation" class="form-control selectpicker">
+                  <option value="">---</option>
+                  <option value="admin">Admin</option>
+                  <option value="manager">Manager</option>
+                  <option value="employee">Employee</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Scope-->
+          <div class="form-group">
+            <label class="col-md-2 control-label">Scope</label>
+            <div class="col-md-10 selectContainer">
+              <div class="input-group">
+               
+                <select name="department" class="form-control selectpicker">
+                  <option value="">---</option>
+                  <option value="admin">Front End</option>
+                  <option value="manager">Back End</option>
+                  <option value="employee">Employee</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+         
+          
+         
+           
+          </div>
+          
+        </div>
+            </section>
+              <!-- Select Basic -->
+          <!-- Success message -->
+          <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>
+          <!-- Button -->
+          <div class="form-group"><center>
+            <label class="col-md-12 control-label"></label>
+            <div class="submit col-md-12"><br>
+              <button type="submit" class="btn btn-warning" >Create <span class="glyphicon glyphicon-send"></span></button>
+            </div>
+             </center>
+            </div>
+        </fieldset>
+      </form>
+    
+    </div><!-- /.container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
