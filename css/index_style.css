@@ -1,6 +1,6 @@
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/parallax.jpg);
+	background-image: url(../images/image1.jpg);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -33,7 +33,7 @@
     
 }
 .navbar{
-    background-color: transparent;
+
     border: 0px;
 }
 .getStarted{
@@ -48,6 +48,10 @@
 }
 #myCarousel{
     height: 650px;
-    background-color: #ff6138; 
+    background-color: #777777;
     
+}
+
+.rounded-circle{
+	corner-radius:100px;
 }
